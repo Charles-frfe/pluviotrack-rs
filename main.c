@@ -30,8 +30,8 @@ int main() {
 
     // 2. PROCESSAMENTO: Cálculo de totais e identificação do pico
     for (int j = 0; j < BAIRROS; j++) {  // Loop para cada bairro
-        for (int linha = 0; linha < DIAS; linha++) { // Loop para cada dia
-            total_bairro[j] += chuvas[linha][j]; // Acumula a quantidade de chuva para o bairro j ao longo dos dias
+        for (int i = 0; i < DIAS; i++) { // Loop para cada dia
+            total_bairro[j] += chuvas[i][j]; // Acumula a quantidade de chuva para o bairro j ao longo dos dias
         }
         if (total_bairro[j] > maior_chuva) { // Verifica se o total acumulado do bairro j é maior que o maior registrado
             maior_chuva = total_bairro[j]; // Atualiza o maior valor de chuva acumulada
