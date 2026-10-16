@@ -41,8 +41,8 @@ Necessário ter um compilador de Linguagem C instalado (ex: **GCC**, **Clang**) 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git
-   cd NOME-DO-SEU-REPOSITORIO
+   git clone https://github.com/Charles-frfe/pluviotrack-rs
+   cd pluviotrack-rs
    ```
 
 2. **Compile o código-fonte:**
